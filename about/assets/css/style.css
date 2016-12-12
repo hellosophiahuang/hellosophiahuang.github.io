@@ -4,22 +4,11 @@ body, html {
   height: 100%;
 }
 
-#title-container {
+#about-container {
 	position: relative;
   width: 100%;
   height: 590px;
-  background-color: #a4add3;
-}
-
-#Layer_1 {
-  width: 700px;
-  padding: 20px;
-  margin-top: 200px;
-  margin-left: 270px;
-  stroke-dasharray: 440;
-  stroke-dashoffset: 400;
-	animation: dash 3.3s ease-in-out forwards;
-  animation-delay: 0.5s;
+  background-color: #9bc9c3;
 }
 
 @keyframes dash {
@@ -29,38 +18,48 @@ body, html {
 	}
 }
 
-svg {
-	width: 500px;
-	padding: 20px;
-	margin-top: 20%;
-  margin-left: 50px;
+#about-title {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #3b3d54;
+  margin-left: 560px;
+  top: 10%;
 }
 
-#title-subtitle {
+.sophia-photo {
+  width: 435px;
+  height: 300px;
   position: absolute;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-  font-style: italic;
-  letter-spacing: 2px;
-  color: #fcfcfe;
-  width: 450px;
-  left: 50%;
-  text-align: center;
-  padding-top: 10px;
+  margin-top: 182px;
+  margin-left: 675px;
   opacity: 0;
   animation: fadeenter 2.5s forwards;
   -webkit-animation: fadeenter 2.5s forwards;
   -moz-animation: fadeenter 2.5s forwards;
   -ms-animation: fadeenter 2.5s forwards;
-  animation-delay: 2s;
-  -webkit-animation-delay: 2s;
-  -moz-animation-delay: 2s;
-  -ms-animation-delay: 2s;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
+  animation-delay: 0.2s;
+}
+
+#about-description {
+  position: absolute;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #40424b;
+  width: 420px;
+  height: 335px;
+  margin-top: 190px;
+  margin-left: 175px;
+  text-align: justify;
+  opacity: 0;
+  animation: fadeenter 2.5s forwards;
+  -webkit-animation: fadeenter 2.5s forwards;
+  -moz-animation: fadeenter 2.5s forwards;
+  -ms-animation: fadeenter 2.5s forwards;
 }
 
 @keyframes fadeenter {
@@ -78,14 +77,14 @@ svg {
   -webkit-animation: fadeenter 2.5s forwards;
   -moz-animation: fadeenter 2.5s forwards;
   -ms-animation: fadeenter 2.5s forwards;
-  animation-delay: 2s;
-  -webkit-animation-delay: 2s;
-  -moz-animation-delay: 2s;
-  -ms-animation-delay: 2s;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
+  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  -ms-animation-delay: 0.3s;
 }
 
 .navbar-item-1 {
@@ -120,6 +119,27 @@ svg {
   transition: 0.1s;
   -moz-transition: 0.1s;
   -webkit-transition: 0.1s;
+}
+
+.navbar-item-3 {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-left: -918px;
+  font-weight: 700;
+  margin-top: -6px;
+}
+
+.navbar-item-3 {
+  opacity: 1;
+}
+
+.navbar-item-3:hover {
+  opacity: 0.6;
+  transition: 0.12s;
+  -moz-transition: 0.12s;
+  -webkit-transition: 0.12s;
 }
 
 a {
