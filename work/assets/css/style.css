@@ -66,10 +66,10 @@ body, html {
   -webkit-animation: fadeenter 2.5s forwards;
   -moz-animation: fadeenter 2.5s forwards;
   -ms-animation: fadeenter 2.5s forwards;
-  animation-delay: 0.2s;
-  -webkit-animation-delay: 0.2s;
-  -moz-animation-delay: 0.2s;
-  -ms-animation-delay: 0.2s;
+  animation-delay: 1.8s;
+  -webkit-animation-delay: 1.8s;
+  -moz-animation-delay: 1.8s;
+  -ms-animation-delay: 1.8s;
 }
 
 .column-2 {
@@ -83,20 +83,15 @@ body, html {
   -webkit-animation: fadeenter 2.5s forwards;
   -moz-animation: fadeenter 2.5s forwards;
   -ms-animation: fadeenter 2.5s forwards;
-  animation-delay: 0.2s;
-  -webkit-animation-delay: 0.2s;
-  -moz-animation-delay: 0.2s;
-  -ms-animation-delay: 0.2s;
-}
-
-@keyframes fadeenter {
-100% {
-  opacity: 1;
-  }
+  animation-delay: 1.8s;
+  -webkit-animation-delay: 1.8s;
+  -moz-animation-delay: 1.8s;
+  -ms-animation-delay: 1.8s;
 }
 
 .project-container {
   margin: 30px;
+  margin-top: 38px;
 }
 
 /*.project-container {
@@ -139,26 +134,31 @@ body, html {
   height: 140px;
   color: #262626;
   background-color: #fcfcfe;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
 }
 
 .hover-text:hover {
-  opacity: 0.85;
-  animation: fade 0.35s forwards;
+  opacity: 0.9;
+  z-index: 100;
+}
+
+/*  animation: fade 0.35s forwards;
   -webkit-animation: fade 0.35s forwards;
   -moz-animation: fade 0.35s forwards;
   -ms-animation: fade 0.35s forwards;
-  animation-duration: 0.6s;
-  z-index: 100;
-}
+  animation-duration: 0.6s;*/
 
 /*.hover-text-out {
   animation: fadeout 0.5s backwards;
 }*/
 
-@keyframes fade {
+/*@keyframes fade {
   0%   { opacity: 0; }
   100% { opacity: 0.8; }
-}
+}*/
 
 /*@keyframes fadeout {
   0%   { opacity: 0.8; }
@@ -176,8 +176,8 @@ body, html {
 }
 
 .up-arrow:hover {
-  opacity: 0.6;
-  transition-duration: .1s;
+  opacity: 0.35;
+  transition-duration: .15s;
 }
 
 #navbar {
@@ -189,6 +189,10 @@ body, html {
   -webkit-animation: fadeenter 2.5s forwards;
   -moz-animation: fadeenter 2.5s forwards;
   -ms-animation: fadeenter 2.5s forwards;
+  animation-delay: 1.8s;
+  -webkit-animation-delay: 1.8s;
+  -moz-animation-delay: 1.8s;
+  -ms-animation-delay: 1.8s;
 }
 
 .navbar-item-1 {

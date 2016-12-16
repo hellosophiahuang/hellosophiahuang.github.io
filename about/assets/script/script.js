@@ -1,8 +1,10 @@
 $(document).ready(function() {
 
- //     $('html, body').animate({
- //         scrollTop: $( $.attr(this, 'href') ).offset().top
- //     }, 600);
- // });
+  setTimeout(function(){
+      $('body').addClass('loaded');
+  2000;
+
+});
+
 
 });

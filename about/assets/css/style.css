@@ -40,19 +40,22 @@ body, html {
   -webkit-animation: fadeenter 2.5s forwards;
   -moz-animation: fadeenter 2.5s forwards;
   -ms-animation: fadeenter 2.5s forwards;
-  animation-delay: 0.2s;
+  animation-delay: 1.8s;
+  -webkit-animation-delay: 1.8s;
+  -moz-animation-delay: 1.8s;
+  -ms-animation-delay: 1.8s;
 }
 
 #about-description {
   position: absolute;
   font-family: 'Open Sans', sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 300;
   letter-spacing: 2px;
   color: #40424b;
   width: 420px;
   height: 335px;
-  margin-top: 190px;
+  margin-top: 168px;
   margin-left: 175px;
   text-align: justify;
   opacity: 0;
@@ -60,6 +63,10 @@ body, html {
   -webkit-animation: fadeenter 2.5s forwards;
   -moz-animation: fadeenter 2.5s forwards;
   -ms-animation: fadeenter 2.5s forwards;
+  animation-delay: 1.8s;
+  -webkit-animation-delay: 1.8s;
+  -moz-animation-delay: 1.8s;
+  -ms-animation-delay: 1.8s;
 }
 
 @keyframes fadeenter {
@@ -81,10 +88,10 @@ body, html {
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
-  animation-delay: 0.3s;
-  -webkit-animation-delay: 0.3s;
-  -moz-animation-delay: 0.3s;
-  -ms-animation-delay: 0.3s;
+  animation-delay: 1.8s;
+  -webkit-animation-delay: 1.8s;
+  -moz-animation-delay: 1.8s;
+  -ms-animation-delay: 1.8s;
 }
 
 .navbar-item-1 {
