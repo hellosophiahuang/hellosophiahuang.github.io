@@ -108,20 +108,20 @@
     /* Loaded */
     .loaded #loader {
       opacity: 0;
-      -webkit-transition: all 2.5s ease-in-out;
-      -moz-transition: all 2.5s ease-in-out;
-      -ms-transition: all 2.5s ease-in-out;
-      -o-transition: all 2.5s ease-in-out;
-      transition-duration: 2s;
+      -webkit-transition: all 2s ease-in-out;
+      -moz-transition: all 2s ease-in-out;
+      -ms-transition: all 2s ease-in-out;
+      -o-transition: all 2s ease-in-out;
+      transition-duration: 1.75s;
     }
 
     .loaded #loader-wrapper {
       visibility: hidden;
-      -webkit-transition: all 2.5s ease-in-out;
-      -moz-transition: all 2.5s ease-in-out;
-      -ms-transition: all 2.5s ease-in-out;
-      -o-transition: all 2.5s ease-in-out;
-      transition-duration: 2s;
+      -webkit-transition: all 2s ease-in-out;
+      -moz-transition: all 2s ease-in-out;
+      -ms-transition: all 2s ease-in-out;
+      -o-transition: all 2s ease-in-out;
+      transition-duration: 1.75s;
     }
 
 

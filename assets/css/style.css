@@ -4,22 +4,31 @@ body, html {
   height: 100%;
 }
 
+.cls-1 {
+  stroke: #99A2A9;
+  stroke-width:1.75px;
+}
+
 #title-container {
 	position: relative;
   width: 100%;
-  height: 590px;
-  background-color: #a4add3;
+  height: 100%;
+}
+
+.background-photo {
+  position: fixed;
+  width: 100%;
+  height: 1500px;
 }
 
 #Layer_1 {
-  width: 700px;
+  width: 800px;
   padding: 20px;
-  margin-top: 200px;
-  margin-left: 270px;
-  stroke-dasharray: 440;
+  margin-top: 175px;
+  margin-left: 213px;  stroke-dasharray: 440;
   stroke-dashoffset: 400;
-	animation: dash 4.4s ease-in-out forwards;
-  animation-delay: 0.2s;
+	animation: dash 4.3s ease-in-out forwards;
+  animation-delay: 0.5s;
   opacity: 0.15;
 }
 
@@ -39,21 +48,20 @@ svg {
 
 #title-subtitle {
   position: absolute;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
-  font-weight: 300;
-  font-style: italic;
-  letter-spacing: 2px;
-  color: #fcfcfe;
-  width: 450px;
+  font-style: 500;
+  letter-spacing: 1px;
+  color: #99A2A9;
+  width: 550px;
   left: 50%;
   text-align: center;
-  padding-top: 10px;
+  padding-top: -3px;
   opacity: 0;
-  animation: fadeenter 2.5s forwards;
-  -webkit-animation: fadeenter 2.5s forwards;
-  -moz-animation: fadeenter 2.5s forwards;
-  -ms-animation: fadeenter 2.5s forwards;
+  animation: fadeenter 3.5s forwards;
+  -webkit-animation: fadeenter 3.5s forwards;
+  -moz-animation: fadeenter 3.5s forwards;
+  -ms-animation: fadeenter 3.5s forwards;
   animation-delay: 2s;
   -webkit-animation-delay: 2s;
   -moz-animation-delay: 2s;
@@ -70,10 +78,10 @@ svg {
   }
 }
 
-#navbar {
+#enter {
   position: absolute;
-  top: 3.5%;
-  left: 74%;
+  top: 64%;
+  left: 50%;
   opacity: 0;
   animation: fadeenter 2.5s forwards;
   -webkit-animation: fadeenter 2.5s forwards;
@@ -89,98 +97,38 @@ svg {
   -ms-transform: translateX(-50%);
 }
 
-.navbar-item-1 {
+.enter-item-1 {
   position: absolute;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  top: auto;
+  color: #fcfcfe;
+  font-weight: 500;
   letter-spacing: 1px;
-  margin-left: -20px;
-  display: inline-block;
+  margin-left: -100px;
   opacity: 1;
+  outline-color: #fcfcfe;
+  outline-width: 2.85px;
+  outline-style: solid;
+  width: 200px;
+  height: 40px;
+  padding-top: 12px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
 }
 
-.navbar-item-1:hover {
-  opacity: 0.6;
-  transition: 0.1s;
-  -moz-transition: 0.1s;
-  -webkit-transition: 0.1s;
-}
-
-.navbar-item-2 {
-  position: absolute;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-  letter-spacing: 1px;
-  margin-left: 70px;
-  display: inline-block;
-  opacity: 1;
-}
-
-.navbar-item-2:hover {
-  opacity: 0.6;
-  transition: 0.1s;
-  -moz-transition: 0.1s;
-  -webkit-transition: 0.1s;
+.enter-item-1:hover {
+  color: #99A2A9;
+  background-color: #fcfcfe;
+  opacity: 0.7;
 }
 
 a {
   text-decoration: none;
-  color: #3b3d54;
-}
-
-.linkedin-logo {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  margin-left: 170px;
-  margin-top: -9px;
-  opacity: 1;
-}
-
-.linkedin-logo:hover {
-  opacity: 0.6;
-  transition: 0.2s;
-}
-
-.facebook-logo {
-  position: absolute;
-  width: 37px;
-  height: 37px;
-  margin-left: 195px;
-  margin-top: -12px;
-  padding-left: 10px;
-  opacity: 1;
-}
-
-.facebook-logo:hover {
-  opacity: 0.6;
-  transition: 0.2s;
-}
-
-.instagram-logo {
-  position: absolute;
-  width: 32px;
-  height: 32px;
-  margin-left: 245px;
-  margin-top: -11px;
-  opacity: 1;
-}
-
-.instagram-logo:hover {
-  opacity: 0.6;
-  transition: 0.2s;
-}
-
-.email {
-  position: absolute;
-  width: 27px;
-  height: 27px;
-  margin-left: 285px;
-  margin-top: -8px;
-  opacity: 1;
-}
-
-.email:hover {
-  opacity: 0.6;
-  transition: 0.2s;
 }
